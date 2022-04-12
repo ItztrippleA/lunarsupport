@@ -1,11 +1,11 @@
 import React from "react";
-const Services = () => {
+const Home = () => {
   return (
     <div className="container">
       <h1 className="text-center" style={{ paddingTop: "30%" }}>
-        Services
+        Home
       </h1>
     </div>
   );
 };
-export default Services;
+export default Home;
