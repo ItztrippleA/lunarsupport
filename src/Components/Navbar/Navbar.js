@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
+import logoLunar from "../../img/logoLunar.png";
 import "bootstrap/js/src/collapse.js";
 
 const Navbar = () => {
@@ -45,9 +46,23 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg ">
-      <NavLink className="navbar-brand navbar-logo" to="/" exact>
-        Lunar Support
+      <NavLink
+        className="navbar-brand navbar-logo"
+        to="/"
+        exact
+        // style={{ paddingLeft: 60 }}
+      >
+        <img
+          src={logoLunar}
+          alt=""
+          style={{
+            width: "200px",
+            height: "auto",
+            paddingLeft: "20px",
+          }}
+        />
       </NavLink>
+      <span>toggle</span>
 
       <button
         className="navbar-toggler"
