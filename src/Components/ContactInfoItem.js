@@ -4,7 +4,7 @@ import styled from "styled-components";
 import PText from "./PText";
 
 const ItemStyles = styled.div`
-  padding: 2rem;
+  padding: 1rem;
   background-color: #f5a794;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@ const ItemStyles = styled.div`
     width: 4rem;
     height: 4rem;
     background-color: #fffbf0;
-    padding: 1.3rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import ContactSection from "../../Components/ContactSection/ContactSection";
 import styled from "styled-components";
+import Map from "../../Components/Map";
 
 const Contact = () => {
   return (
@@ -12,6 +13,7 @@ const Contact = () => {
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
       <ContactSection />
+      <Map />
     </motion.div>
   );
 };

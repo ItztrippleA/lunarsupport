@@ -15,16 +15,18 @@ const ContactSectionStyle = styled.div`
     justify-content: space-between;
     position: relative;
     width: 80%;
+    filter: drop-shadow(0 0 0.75rem #fca61f);
   }
   .contactSection__wrapper::after {
     position: absolute;
     content: "";
     width: 2px;
-    height: 50%;
+    height: 60%;
     background-color: #f5a794;
     left: 50%;
-    top: 30%;
+    top: 35%;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(0 0 0.75rem crimson);
   }
   .left {
     width: 100%;
@@ -66,7 +68,16 @@ export default function ContactSection() {
         }}
       >
         <SectionTitle heading="contact" subheading="get in touch" />
-        <div className="contactSection__wrapper">
+        <div
+          className="contactSection__wrapper"
+          style={{
+            border: "1px solid #fca61f",
+            borderRadius: "12px",
+            padding: "2rem",
+            width: "90%",
+            backgroundColor: "#fffbf0",
+          }}
+        >
           <div className="left">
             <ContactInfoItem icon={<MdLocalPhone />} text="+8801231" />
             <ContactInfoItem icon={<MdEmail />} text="webcifar@gmail.com" />

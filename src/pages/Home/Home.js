@@ -6,6 +6,7 @@ import FloatingDiv from "../../Components/FloatingDiv/FloatingDiv";
 import "./Home.css";
 import Services from "../Service/Services";
 import Works from "../../Components/Works/Works";
+import TestimonialsSection from "../../Components/TestimonialsSection";
 // import ServiceSection from "../Sections/ServiceSection";
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Services />
       {/* <ServiceSection /> */}
       {/* <FloatingDiv /> */}
+      <TestimonialsSection />
     </motion.div>
   );
 };
