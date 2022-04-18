@@ -1,5 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ContactSection from "../../Components/ContactSection/ContactSection";
+import styled from "styled-components";
+
 const Contact = () => {
   return (
     <motion.div
@@ -8,9 +11,7 @@ const Contact = () => {
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-      <h1 className="text-center" style={{ paddingTop: "30%" }}>
-        Contact Us
-      </h1>
+      <ContactSection />
     </motion.div>
   );
 };
