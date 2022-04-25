@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   useRoutes,
   useLocation,
 } from "react-router-dom";
@@ -11,6 +11,7 @@ import Home from "../../pages/Home/Home";
 import Services from "../../pages/Service/Services";
 import Testimonial from "../../pages/Testimonials/Testimonial";
 import { AnimatePresence } from "framer-motion";
+import "../../index.css";
 
 const AppRoutes = () => {
   const routes = useRoutes([

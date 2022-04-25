@@ -1,12 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Intro from "../../Components/Intro/Intro";
-import About from "../About/About";
-import FloatingDiv from "../../Components/FloatingDiv/FloatingDiv";
+// import About from "../About/About";
+// import FloatingDiv from "../../Components/FloatingDiv/FloatingDiv";
 import "./Home.css";
 import Services from "../Service/Services";
 import Works from "../../Components/Works/Works";
-import TestimonialsSection from "../../Components/TestimonialsSection";
+// import TestimonialsSection from "../../Components/TestimonialsSection";
+import "../../index.css";
+import Servicess from "../Services/Servicess";
 // import ServiceSection from "../Sections/ServiceSection";
 const Home = () => {
   return (
@@ -19,9 +21,10 @@ const Home = () => {
       <Intro />
       <Works />
       <Services />
+      <Servicess />
       {/* <ServiceSection /> */}
       {/* <FloatingDiv /> */}
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
     </motion.div>
   );
 };
