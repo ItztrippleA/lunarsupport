@@ -20,7 +20,13 @@ import astro from "../../img/Astrautaut.png";
 
 function Servicess() {
   return (
-    <div style={{ width: "100%", marginTop: "400px" }}>
+    <div style={{ width: "100%" }}>
+      <div className="awesome">
+        {/* dark Mode */}
+        <span style={{ color: "#242d49" }}></span>
+        <span style={{ alignSelf: "center" }}>Testimonials</span>
+        <spane style={{ width: "500px", alignSelf: "center" }}></spane>
+      </div>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

@@ -1,0 +1,40 @@
+.App {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.image_wrapper {
+  margin: 0px 30px;
+}
+
+.image_wrapper img {
+  width: 80%;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}

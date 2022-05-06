@@ -12,6 +12,7 @@
   box-shadow: var(--boxShadow);
   border-radius: 20px;
   padding: 0rem 10px 2rem 10px;
+  margin-bottom: 5rem;
 }
 .card span:nth-of-type(2) {
   color: var(--gray);

@@ -11,8 +11,12 @@
   --orangeCard: rgba(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
   --mainColorBg: #fffbf0;
-  --accentColor: #f5a794;
+  --accentColor: #111827;
 }
+/* .sticky-nav {
+  position: sticky;
+  top: 0;
+} */
 body {
   font-family: "Roboto", sans-serif;
   background: var(--mainColorBg); /* fallback for old browsers */

@@ -10,10 +10,16 @@ import Works from "../../Components/Works/Works";
 import "../../index.css";
 import Servicess from "../Services/Servicess";
 // import ServiceSection from "../Sections/ServiceSection";
+import SupportedTech from "../../Components/SupportedTech/SupportedTech";
+import Cards from "../../Components/SolutionsCard/Cards";
+import OtherServices from "../../Components/OtherServices/OtherServices";
 const Home = () => {
   return (
     <motion.div
       className="container"
+      style={{
+        width: "80%",
+      }}
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}
@@ -21,10 +27,13 @@ const Home = () => {
       <Intro />
       <Works />
       <Services />
+      <Cards />
       <Servicess />
       {/* <ServiceSection /> */}
       {/* <FloatingDiv /> */}
       {/* <TestimonialsSection /> */}
+      <SupportedTech />
+      <OtherServices />
     </motion.div>
   );
 };

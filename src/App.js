@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import AnimatedRoutes from "./Components/Animated/AnimatedRoutes";
 import Footer from "./Components/Footer/Footer";
 // import Intro from "./Components/Intro/Intro";
+// import "./App.css";
 
 const App = () => {
   return (

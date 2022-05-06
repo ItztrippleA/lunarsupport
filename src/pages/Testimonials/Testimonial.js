@@ -11,7 +11,6 @@ const Testimonial = () => {
       <h1 className="text-center" style={{ paddingTop: "30%" }}>
         Testimonial
       </h1>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
     </motion.div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Intro from "../../Components/Intro/Intro";
+// import Intro from "../../Components/Intro/Intro";
 const About = () => {
   return (
     <motion.div

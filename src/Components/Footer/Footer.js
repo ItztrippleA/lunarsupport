@@ -6,7 +6,7 @@ import { Icons } from "./Menus";
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#f5a794] py-7">
+      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#788097] py-7">
         <h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5 text-[#fffbf0]">
           <span className="text-[#008cff]">Free </span>
           until you are ready to launch
@@ -14,7 +14,7 @@ function Footer() {
         <div>
           <input
             type="text"
-            placeholder="Enter Your ph.no"
+            placeholder="Enter Your work Email"
             className="text-gray-800
            sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
           />
@@ -22,7 +22,7 @@ function Footer() {
             className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
            rounded-md text-white md:w-auto w-full"
           >
-            Request Code
+            Request Quote
           </button>
         </div>
       </div>

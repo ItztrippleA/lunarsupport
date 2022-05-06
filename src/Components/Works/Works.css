@@ -123,7 +123,7 @@
 
   .w-right {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: start;
     transform: scale(0.7);
     margin-left: 0;
