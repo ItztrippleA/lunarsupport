@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&family=Rubik+Glitch&display=swap");
 
 :root {
   --yellow: #f5c32c;
@@ -35,6 +36,12 @@ i {
   pointer-events: none;
 }
 
+.namee {
+  font-family: "Rubik Glitch", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
 .navbar-mainbg {
   background-color: var(--accentColor);
   /* f5a794 */

@@ -43,9 +43,9 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Pre support"}
+            heading={"Support"}
             detail={
-              "Lunar support will work with your company to proactively seek out online forums, social media and website comments/posts about..."
+              "Tier 1 Lunar support teams solve user problems by following standard operating procedures (SOP). If no solutions are available..."
             }
           />
         </motion.div>
@@ -56,7 +56,7 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Second line of support for complex issues"}
+            heading={"Responsibilities"}
             detail={
               "For complex issues that cannot be solved by the first line of support, we will involve our personnel ..."
             }
@@ -68,13 +68,13 @@ const Services = () => {
           whileInView={{ left: "-4rem" }}
           transition={transition}
         >
-          <Card
+          {/* <Card
             emoji={Glasses}
             heading={"Self service"}
             detail={
               "We will work with you to build FAQs and self-help wikis which customers can refer to...."
             }
-          />
+          /> */}
         </motion.div>
         {/* 3rd */}
         <motion.div
@@ -82,14 +82,14 @@ const Services = () => {
           whileInView={{ left: "12rem" }}
           transition={transition}
         >
-          <Card
+          {/* <Card
             emoji={Humble}
             heading={"First line of support"}
             detail={
               "For complex issues that cannot be solved by the first line of support, we will involve our personnel with an in-depth..."
             }
             color="rgba(252, 166, 31, 0.45)"
-          />
+          /> */}
         </motion.div>
 
         <div

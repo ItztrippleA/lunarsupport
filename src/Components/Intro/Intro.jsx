@@ -29,13 +29,17 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span>Amazing Customer Experiences.</span>
-          <span>Together</span>
+          <span></span>
+          <span>Human Powered Tech Centered</span>
           <span>
-            We are a digitally enabled People as a Services Outsourcer focused
-            on serving high growth, new economy, market-disrupting, and
-            technology companies to own interaction custody, complete complex
-            tasks, and grow their brands.
+            As technology evolves, efficient consumer solutions become essential
+            expecially for tech companies in niche industries. It is important
+            that these solutions are aligned to meet both business and consumer
+            needs. At Lunar Support, we bring veracious insights on how to defy
+            this challenge. <br /> Lunar Support is an amalgamation of people,
+            innovation and technology set out to knock down the barriers to
+            unrivalled and relentless customer support for Life Science Software
+            Companies.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -61,8 +65,8 @@ const Intro = () => {
         <img src={boy} alt="" />
         {/* animation */}
         <motion.img
-          initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
+          initial={{ left: "-26%" }}
+          whileInView={{ left: "-10%" }}
           transition={transition}
           src={astraunaut}
           alt=""
@@ -73,7 +77,7 @@ const Intro = () => {
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
+          whileInView={{ left: "60%" }}
           transition={transition}
           className="floating-div"
         >
@@ -97,9 +101,9 @@ const Intro = () => {
         {/* animation */}
         <motion.div
           initial={{ left: "9rem", top: "23rem" }}
-          whileInView={{ left: "0rem" }}
+          whileInView={{ left: "2.5rem" }}
           transition={transition}
-          className="floating-div"
+          className="floating-divv"
         >
           {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="Best Support" text2="Award" />

@@ -52,7 +52,7 @@ const Navbar = () => {
         exact
         // style={{ paddingLeft: 60 }}
       >
-        <img
+        {/* <img
           src={logoLunar}
           alt=""
           style={{
@@ -60,7 +60,8 @@ const Navbar = () => {
             height: "auto",
             paddingLeft: "20px",
           }}
-        />
+        /> */}
+        <span className="namee">Lunar.</span>
       </NavLink>
       <span>toggle</span>
 

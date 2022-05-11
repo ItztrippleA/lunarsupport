@@ -13,6 +13,7 @@ import Servicess from "../Services/Servicess";
 import SupportedTech from "../../Components/SupportedTech/SupportedTech";
 import Cards from "../../Components/SolutionsCard/Cards";
 import OtherServices from "../../Components/OtherServices/OtherServices";
+import Pricing from "../../Components/Pricing/Pricing";
 const Home = () => {
   return (
     <motion.div
@@ -26,7 +27,7 @@ const Home = () => {
     >
       <Intro />
       <Works />
-      <Services />
+      {/* <Services /> */}
       <Cards />
       <Servicess />
       {/* <ServiceSection /> */}
@@ -34,6 +35,7 @@ const Home = () => {
       {/* <TestimonialsSection /> */}
       <SupportedTech />
       <OtherServices />
+      <Pricing />
     </motion.div>
   );
 };

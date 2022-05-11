@@ -11,9 +11,17 @@ function Cards() {
         <span style={{ alignSelf: "center" }}>
           Flexible support team benefits
         </span>
-        <spane style={{ width: "500px", alignSelf: "center" }}>
+        <span
+          style={{
+            width: "90%",
+            alignSelf: "center",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           See how companies work with Lunar to deliver flexibility and scale
-        </spane>
+        </span>
       </div>
       <div className="cards__container">
         <div className="cards__wrapper">
